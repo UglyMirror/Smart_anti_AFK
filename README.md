@@ -26,7 +26,3 @@ P.S. I'd recommend setting the repeat time to a single second.
 
 ### **Godspeed lazy-goers!**
 
-
-Feel free to use this updated version or make further modifications according to your preferences!
-
-
