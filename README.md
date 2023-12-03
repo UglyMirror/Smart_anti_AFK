@@ -21,5 +21,6 @@ pip install PyAutoGUI
 ```
 
 
-**Godspeed easy-goers!**
+### **Godspeed lazy-goers!**
+
 
