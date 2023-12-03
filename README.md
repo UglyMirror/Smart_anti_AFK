@@ -18,3 +18,5 @@ This script should generally work for all games as long as you have Python insta
 
 ```bash
 pip install PyAutoGUI
+
+**Godspeed easy-goers!**
