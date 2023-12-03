@@ -21,6 +21,8 @@ pip install PyAutoGUI
 ```
 
 
+P.S, I'd recommends setting the repeat time to a single second
+
 ### **Godspeed lazy-goers!**
 
 
