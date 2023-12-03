@@ -45,7 +45,7 @@ def main():
         mode = mode_selection()
         seconds_to_repeat = seconds_interval()
         print()
-        failsafe_question = input("[y or n] Enable failsafe? Potentially problematic.\n>>> ").lower()
+        failsafe_question = input("[y or n] Enable failsafe? Potentially problematic, although recommended.\n>>> ").lower()
         time.sleep(5)
         pixel_color_initial = pyautogui.pixel(804, 972) #<<< This line could be causing some trouble, consider playing around with co-ordinates if you want the failsafe.
         while True:
