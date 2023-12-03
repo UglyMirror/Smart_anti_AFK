@@ -6,7 +6,7 @@ A smart anti-AFK script
 
 - Provides all the necessary actions to avoid AFK-induced kicks, including random pressing of WASD buttons, Shift, Space, and both mouse buttons.
 - All actions and their durations are randomly selected.
-- The script can constantly check for sudden changes in constant variables within your screen. Specifically, it detects sudden color changes. If it detects one, it automatically stops the execution of the script to prevent any unintended actions (such as clicking outside the game).
+- It has a crucial failsafe, namely the script can constantly check for sudden changes in constant variables within your screen. Specifically, it detects sudden color changes. If it detects one, it automatically stops the execution of the script to prevent any unintended actions (such as clicking outside the game).
 
 ## Usage:
 
