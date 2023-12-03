@@ -31,7 +31,7 @@ def mode_selection():
 def seconds_interval():
     while True:
         try:
-            second_selection = int(input("Select every how many seconds it will repeat >>> "))
+            second_selection = int(input("Select every how many seconds it will repeat \n>>> "))
             if isinstance(second_selection, int):
                 return second_selection
             else:
@@ -44,10 +44,22 @@ def main():
     try:
         mode = mode_selection()
         seconds_to_repeat = seconds_interval()
+        print()
+        failsafe_question = input("[y or n] Enable failsafe? Potentially problematic.\n>>> ").lower()
         time.sleep(5)
-        pixel_color_initial = pyautogui.pixel(804, 972)
+        pixel_color_initial = pyautogui.pixel(804, 972) #<<< This line could be causing some trouble, consider playing around with co-ordinates if you want the failsafe.
         while True:
+
             pixel_color_now = pyautogui.pixel(804, 972)
+            if failsafe_question == "y":
+                continue
+
+            elif failsafe_question == "n":
+                pixel_color_now = pixel_color_initial
+
+
+
+
             if pixel_color_now == pixel_color_initial:
                 if mode == 1:
                     randx = random.randint(-500, 500)
