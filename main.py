@@ -57,9 +57,6 @@ def main():
             elif failsafe_question == "n":
                 pixel_color_now = pixel_color_initial
 
-
-
-
             if pixel_color_now == pixel_color_initial:
                 if mode == 1:
                     randx = random.randint(-500, 500)
