@@ -52,7 +52,7 @@ def main():
 
             pixel_color_now = pyautogui.pixel(804, 972)
             if failsafe_question == "y":
-                continue
+                pixel_color_now = pyautogui.pixel(804, 972)
 
             elif failsafe_question == "n":
                 pixel_color_now = pixel_color_initial
