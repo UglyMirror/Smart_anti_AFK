@@ -1,13 +1,20 @@
 # Smart_anti_AFK
-A smart anti AFK script
 
-The abilities:
-  Provides all the necessary actions to avoid afk induced kicks, namely random pressing of WASD buttons, shift and space, as well as both mouse buttons.
-  All of these actions are picked randomly, as well as their duration.
-  The script has the ability to constantly check for sudden changes in constant variables within your screen, a.e it detects sudden color changes, and if it does detect one, it automatically stops the execution of the script, as to not cause any damage (clicking things outside the game).
+A smart anti-AFK script
 
-To use the script:
-  Download the main.py file and run it. When you do so, a terminal in the bottom should open where you need to answer a couple of questions.
-  After answering them, you are given 5 seconds to change windows into the game where the script will be executed.
+## Abilities:
 
+- Provides all the necessary actions to avoid AFK-induced kicks, including random pressing of WASD buttons, Shift, Space, and both mouse buttons.
+- All actions and their durations are randomly selected.
+- The script can constantly check for sudden changes in constant variables within your screen. For example, it can detect sudden color changes. If it detects one, it automatically stops the execution of the script to prevent any unintended actions (such as clicking outside the game).
 
+## Usage:
+
+1. Download the `main.py` file.
+2. Run the script. A terminal should open, where you'll need to answer a couple of questions.
+3. After answering, you have 5 seconds to switch to the game window where the script will be executed.
+
+This script should generally work for all games as long as you have Python installed. However, be aware that you may need to install the PyAutoGUI module. To install it, open your command prompt on Windows and type:
+
+```bash
+pip install PyAutoGUI
